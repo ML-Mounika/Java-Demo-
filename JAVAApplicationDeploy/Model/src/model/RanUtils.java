@@ -2,13 +2,13 @@ package model;
 
 public class RanUtils {
   public static NumberBean randomNum(String rangeString) {
-    double ranges;
+    double range;
     try {
-      ranges = Double.parseDouble(rangeString);
+      range = Double.parseDouble(rangeString);
     } catch(Exception e) {
-      ranges = 10.0;
+      range = 10.0;
     }
-    return(new NumberBean(Math.random() * ranges));
+    return(new NumberBean(Math.random() * range));
   }
   
   private RanUtils() {} // Uninstantiable class
