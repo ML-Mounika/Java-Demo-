@@ -5,7 +5,8 @@ public class RanUtils {
     double rang;
     try {
       rang = Double.parseDouble(rangeString);
-    } catch(Exception e) {
+    } catch(Exception e) 
+      {
       rang = 10.0;
     }
     return(new NumberBean(Math.random() * rang));
