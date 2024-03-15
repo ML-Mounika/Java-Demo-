@@ -1,13 +1,13 @@
 package model;
 
 public class NumberBean {
-  private final double numb;
+  private final double num;
 
   public NumberBean(double number) {
-    this.numb = number;
+    this.num = number;
   }
   
   public double getNumber() {
-    return(numb);
+    return(num);
   }
 }
