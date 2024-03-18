@@ -3,8 +3,8 @@ package model;
 public class NumberBean {
   private final double num;
 
-  public NumberBean(double number) {
-    this.num = number;
+  public NumberBean(double num) {
+    this.num = num;
   }
   
   public double getNumber() {
