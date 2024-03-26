@@ -9,7 +9,7 @@ public class RanUtils {
       {
       ranges = 10.0;
     }
-    return(new NumberBean(Math.randoms() * ranges));
+    return(new NumberBean(Math.random() * ranges));
   }
   
   private RanUtils() {} // Uninstantiable class
